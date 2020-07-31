@@ -86,7 +86,7 @@ public class DateHeadView extends FrameLayout {
         mCalendarView.getWeekViewPager().setVisibility(VISIBLE);
         java.util.Calendar cur = java.util.Calendar.getInstance();
         mYearTextView.setText(cur.get(java.util.Calendar.YEAR)+"年");
-        mMonthTextView.setText(cur.get(java.util.Calendar.MONTH)+"月");
+        mMonthTextView.setText((cur.get(java.util.Calendar.MONTH)+1)+"月");
 
         findViewById(R.id.head_left_layout).setOnClickListener(view1->{
             if(mCalendarView.getMonthViewPager().getVisibility()!=VISIBLE)

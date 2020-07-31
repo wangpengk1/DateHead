@@ -16,11 +16,11 @@ public class HeadViewActivity extends AppCompatActivity {
         setContentView(R.layout.activity_head_view);
         DateHeadView dateHeadView = findViewById(R.id.header);
 
-        Calendar now = Calendar.getInstance();
-        Calendar pre = Calendar.getInstance();
-        pre.add(Calendar.MONTH,-1);
-        dateHeadView.setSelectMode(2);
-        dateHeadView.getCalendarView().setSelectCalendarRange(convertCalendar(pre),convertCalendar(now));
+//        Calendar now = Calendar.getInstance();
+//        Calendar pre = Calendar.getInstance();
+//        pre.add(Calendar.MONTH,-1);
+//        dateHeadView.setSelectMode(2);
+//        dateHeadView.getCalendarView().setSelectCalendarRange(convertCalendar(pre),convertCalendar(now));
 
     }
 
